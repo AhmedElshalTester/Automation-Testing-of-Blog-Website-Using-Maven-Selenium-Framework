@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Blog Website">
+	<parameter name="browser" value="ie"></parameter>
+	<test name="Regression Test">
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test>
+</suite> 
