@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19208" started-at="2020-02-09T17:22:30 EET" finished-at="2020-02-09T17:22:49 EET">
+  <suite name="Default suite" duration-ms="23530" started-at="2020-02-11T01:20:39 EET" finished-at="2020-02-11T01:21:03 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19208" started-at="2020-02-09T17:22:30 EET" finished-at="2020-02-09T17:22:49 EET">
-      <class name="admintests.AddAdminTest">
-        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:admintests.AddAdminTest@72b6cbcc]" name="startDriver" is-config="true" duration-ms="6554" started-at="2020-02-09T17:22:23 EET" finished-at="2020-02-09T17:22:30 EET">
+    <test name="Default test" duration-ms="23530" started-at="2020-02-11T01:20:39 EET" finished-at="2020-02-11T01:21:03 EET">
+      <class name="admintests.PreviewPostTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:admintests.PreviewPostTest@554cd74a]" name="startDriver" is-config="true" duration-ms="5609" started-at="2020-02-11T01:20:34 EET" finished-at="2020-02-11T01:20:39 EET">
           <params>
             <param index="0">
               <value>
@@ -18,86 +18,86 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method status="PASS" signature="adminCanLoginSuccessfully()[pri:1, instance:admintests.AddAdminTest@72b6cbcc]" name="adminCanLoginSuccessfully" duration-ms="3153" started-at="2020-02-09T17:22:30 EET" finished-at="2020-02-09T17:22:33 EET">
+        <test-method status="PASS" signature="adminCanLoginSuccessfully()[pri:1, instance:admintests.PreviewPostTest@554cd74a]" name="adminCanLoginSuccessfully" duration-ms="2244" started-at="2020-02-11T01:20:39 EET" finished-at="2020-02-11T01:20:42 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminCanLoginSuccessfully -->
-        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:admintests.AddAdminTest@72b6cbcc]" name="screenshotOnFailure" is-config="true" duration-ms="15" started-at="2020-02-09T17:22:33 EET" finished-at="2020-02-09T17:22:33 EET">
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:admintests.PreviewPostTest@554cd74a]" name="screenshotOnFailure" is-config="true" duration-ms="15" started-at="2020-02-11T01:20:42 EET" finished-at="2020-02-11T01:20:42 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=adminCanLoginSuccessfully status=SUCCESS method=AddAdminTest.adminCanLoginSuccessfully()[pri:1, instance:admintests.AddAdminTest@72b6cbcc] output={null}]]]>
+                <![CDATA[[TestResult name=adminCanLoginSuccessfully status=SUCCESS method=PreviewPostTest.adminCanLoginSuccessfully()[pri:1, instance:admintests.PreviewPostTest@554cd74a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method status="PASS" signature="addNewAdmin()[pri:2, instance:admintests.AddAdminTest@72b6cbcc]" name="addNewAdmin" duration-ms="3174" started-at="2020-02-09T17:22:33 EET" finished-at="2020-02-09T17:22:36 EET">
+        <test-method status="PASS" signature="adminCanAddCategory()[pri:2, instance:admintests.PreviewPostTest@554cd74a]" name="adminCanAddCategory" duration-ms="4852" started-at="2020-02-11T01:20:42 EET" finished-at="2020-02-11T01:20:47 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewAdmin -->
-        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:admintests.AddAdminTest@72b6cbcc]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-09T17:22:36 EET" finished-at="2020-02-09T17:22:36 EET">
+        </test-method> <!-- adminCanAddCategory -->
+        <test-method status="PASS" signature="addnewPost()[pri:3, instance:admintests.PreviewPostTest@554cd74a]" name="addnewPost" duration-ms="4463" started-at="2020-02-11T01:20:47 EET" finished-at="2020-02-11T01:20:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewPost -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:admintests.PreviewPostTest@554cd74a]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-11T01:20:47 EET" finished-at="2020-02-11T01:20:47 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addNewAdmin status=SUCCESS method=AddAdminTest.addNewAdmin()[pri:2, instance:admintests.AddAdminTest@72b6cbcc] output={null}]]]>
+                <![CDATA[[TestResult name=adminCanAddCategory status=SUCCESS method=PreviewPostTest.adminCanAddCategory()[pri:2, instance:admintests.PreviewPostTest@554cd74a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method status="PASS" signature="Adminlogout()[pri:3, instance:admintests.AddAdminTest@72b6cbcc]" name="Adminlogout" duration-ms="2278" started-at="2020-02-09T17:22:36 EET" finished-at="2020-02-09T17:22:38 EET">
+        <test-method status="PASS" signature="AdminCanEditpost()[pri:4, instance:admintests.PreviewPostTest@554cd74a]" name="AdminCanEditpost" duration-ms="5819" started-at="2020-02-11T01:20:51 EET" finished-at="2020-02-11T01:20:57 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Adminlogout -->
-        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:admintests.AddAdminTest@72b6cbcc]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2020-02-09T17:22:38 EET" finished-at="2020-02-09T17:22:38 EET">
+        </test-method> <!-- AdminCanEditpost -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:admintests.PreviewPostTest@554cd74a]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-11T01:20:51 EET" finished-at="2020-02-11T01:20:51 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Adminlogout status=SUCCESS method=AddAdminTest.Adminlogout()[pri:3, instance:admintests.AddAdminTest@72b6cbcc] output={null}]]]>
+                <![CDATA[[TestResult name=addnewPost status=SUCCESS method=PreviewPostTest.addnewPost()[pri:3, instance:admintests.PreviewPostTest@554cd74a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method status="PASS" signature="LoginPageNewAdmin()[pri:4, instance:admintests.AddAdminTest@72b6cbcc]" name="LoginPageNewAdmin" duration-ms="2748" started-at="2020-02-09T17:22:38 EET" finished-at="2020-02-09T17:22:41 EET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginPageNewAdmin -->
-        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:admintests.AddAdminTest@72b6cbcc]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-09T17:22:41 EET" finished-at="2020-02-09T17:22:41 EET">
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:admintests.PreviewPostTest@554cd74a]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-11T01:20:57 EET" finished-at="2020-02-11T01:20:57 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginPageNewAdmin status=SUCCESS method=AddAdminTest.LoginPageNewAdmin()[pri:4, instance:admintests.AddAdminTest@72b6cbcc] output={null}]]]>
+                <![CDATA[[TestResult name=AdminCanEditpost status=SUCCESS method=PreviewPostTest.AdminCanEditpost()[pri:4, instance:admintests.PreviewPostTest@554cd74a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method status="PASS" signature="deleteNewAdmin()[pri:5, instance:admintests.AddAdminTest@72b6cbcc]" name="deleteNewAdmin" duration-ms="7801" started-at="2020-02-09T17:22:41 EET" finished-at="2020-02-09T17:22:49 EET">
+        <test-method status="PASS" signature="AdminCanLivePreviewPost()[pri:5, instance:admintests.PreviewPostTest@554cd74a]" name="AdminCanLivePreviewPost" duration-ms="6100" started-at="2020-02-11T01:20:57 EET" finished-at="2020-02-11T01:21:03 EET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteNewAdmin -->
-        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:admintests.AddAdminTest@72b6cbcc]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-09T17:22:49 EET" finished-at="2020-02-09T17:22:49 EET">
+        </test-method> <!-- AdminCanLivePreviewPost -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:admintests.PreviewPostTest@554cd74a]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-02-11T01:21:03 EET" finished-at="2020-02-11T01:21:03 EET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=deleteNewAdmin status=SUCCESS method=AddAdminTest.deleteNewAdmin()[pri:5, instance:admintests.AddAdminTest@72b6cbcc] output={null}]]]>
+                <![CDATA[[TestResult name=AdminCanLivePreviewPost status=SUCCESS method=PreviewPostTest.AdminCanLivePreviewPost()[pri:5, instance:admintests.PreviewPostTest@554cd74a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotOnFailure -->
-        <test-method status="PASS" signature="stopDriver()[pri:0, instance:admintests.AddAdminTest@72b6cbcc]" name="stopDriver" is-config="true" duration-ms="970" started-at="2020-02-09T17:22:49 EET" finished-at="2020-02-09T17:22:50 EET">
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:admintests.PreviewPostTest@554cd74a]" name="stopDriver" is-config="true" duration-ms="1001" started-at="2020-02-11T01:21:03 EET" finished-at="2020-02-11T01:21:04 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopDriver -->
-      </class> <!-- admintests.AddAdminTest -->
+      </class> <!-- admintests.PreviewPostTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

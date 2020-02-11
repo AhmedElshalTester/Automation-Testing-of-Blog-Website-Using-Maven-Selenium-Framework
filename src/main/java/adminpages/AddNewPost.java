@@ -35,10 +35,23 @@ public class AddNewPost extends PageBase {
 		TextValue(titleTxt, Title);
 		select=new Select(selectCategory);
 		select.selectByVisibleText(category);
-		String img="Summer.jpg";
+		String img="Automation.jpg";
 		String filePath = System.getProperty("user.dir") + "\\images\\"+img;
 		TextValue(ImageSelect, filePath);
 		TextValue(postText, post);
+		clickButton(submitBtn);
+	}
+	public void UpdatePostPage(String UpdateTitle,String UpdateCategory,String UpdatePost) 
+	{
+		clearTxtBox(titleTxt);
+		TextValue(titleTxt, UpdateTitle);
+		select=new Select(selectCategory);
+		select.selectByVisibleText(UpdateCategory);
+		String img1="Automation1.png";
+		String filePath1 = System.getProperty("user.dir") + "\\images\\"+img1;
+		TextValue(ImageSelect, filePath1);
+		clearTxtBox(postText);
+		TextValue(postText, UpdatePost);
 		clickButton(submitBtn);
 	}
 

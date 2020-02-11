@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="admintests.AddAdminTest">
+      <class name="admintests.PreviewPostTest">
         <methods>
+          <include name="AdminCanLivePreviewPost"/>
           <include name="stopDriver"/>
-          <include name="deleteNewAdmin"/>
           <include name="startDriver"/>
           <include name="screenshotOnFailure"/>
         </methods>
-      </class> <!-- admintests.AddAdminTest -->
+      </class> <!-- admintests.PreviewPostTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
